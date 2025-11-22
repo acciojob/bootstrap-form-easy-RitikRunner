@@ -12,13 +12,10 @@
 	<!-- the entire body must be written by student -->
 	<div>
 		<h1 class="heading">Internship Form</h1>
-	<form class="row g-3">
+	<form class="row g-3" id="" needs-validation>
   <div class="col-md-4">
-    <label for="first-name-input" class="form-label">First name</label>
-    <input type="text" class="form-control" id="first-name-input" required>
-	 <div class="invalid-feedback">
- Text here
- </div>  
+    <label for="first-name-input" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="first-name-input" required>   
   </div>
   <div class="col-md-4">
     <label for="last-name-input" class="form-label">Last name</label>
@@ -27,7 +24,7 @@
   <div class="col-md-4">
     <label for="email-input" class="form-label">Email Address</label>
     <div class="input-group">
-      <input type="text" class="form-control" id="email-input"  required>
+      <input type="email" class="form-control" id="email-input"  required>
     </div>
   </div>
   <div class="col-md-4">
@@ -36,7 +33,7 @@
   </div>
   <div class="col-md-4">
 	 <label for="" class="form-label">Graduation Year</label> 
-	 <select aria-required class="form-select">
+	 <select aria-required class="form-select" id="">
 		 <option selected disabled value="">Choose...</option>
 		 <option>2020</option>
 		 <option>2021</option>
